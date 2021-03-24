@@ -18,7 +18,7 @@ form.addEventListener('submit', e => {
   // console.log(score);
   // show result on page
   scrollTo(0,0);
-  result.classList.remove('.d-none');
+  result.classList.remove('d-none');
 
   let output = 0;
   const timer = setInterval(() => {
